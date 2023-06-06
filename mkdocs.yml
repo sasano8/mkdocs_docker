@@ -7,10 +7,10 @@ site_url: https://portfolio.ys-method.com/
 repo_url: https://github.com/sasano8/portfolio/
 edit_uri: "edit/main/docs/"
 
-# plugins:
-#   - with-pdf:
-#       cover: true
-#       cover_title: Sample Document
+plugins:
+  - with-pdf:
+      cover: true
+      cover_title: Sample Document
 
 nav:
   - はじめに: "index.md"

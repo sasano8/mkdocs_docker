@@ -20,9 +20,6 @@ theme:
 
 plugins:
   - search
-  - with-pdf:
-      cover: true
-      cover_title: Sample Document
   - print-site:
       add_print_site_banner: true
       print_site_banner_template: "docs/overrides/print_site_banner.tpl"
