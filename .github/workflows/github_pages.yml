@@ -83,7 +83,7 @@ jobs:
         uses: addnab/docker-run-action@v3
         with:
           image: mkdocs_docker
-          options: -v ${{ PWD }}:/docs -e ENABLE_PDF_EXPORT=1
+          options: -v ${PWD}:/docs -e ENABLE_PDF_EXPORT=1
           run: build
 
       - name: Upload artifact
